@@ -1,12 +1,12 @@
 * {
     padding: 0;
     margin: 0;
-    font-weight: 50;
+    font-weight: 100;
 }
 
 body {
     color: white;
-    background-color: rgb(80, 80, 80);
+    background-color: rgb(95, 95, 95);
     font-family: 'Pixelify Sans', sans-serif;
 
 }
@@ -30,18 +30,25 @@ header h3 {
 }
 
 strong {
-    font-size: 30px;
     font-weight: 700;
+    color: rgb(115, 95, 158);
 }
 
 section {
     height: 100vh;
+    
 }
 
 
 /*Seção 1*/
 .section-1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
     position: relative;
+    height: calc(100vh - 100px);
+    background-color: rgb(101, 101, 101); ;
 }
 
 .section-1 div {
@@ -49,21 +56,50 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 5px;
+
     position: absolute;
     right: 20px;
+    font-size: 25px;
     top: 1%;
 }
 
 .section-1 img{
     opacity: 50%;
+    
 }
 
 .section-1 img:hover{
     opacity: 100%;
 }
 
-.section-1 hr {
-    width: 90px;
+.section-1 div hr {
+    width: 120px;
+}
+
+.section-1 h1 {
+    font-size: 50px;
+}
+
+.section-1 h2 {
+    font-size: 70px;
+}
+
+.section-1 article {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    margin-left: 70px;
+    margin-bottom: 200px;
+}
+
+.section-1 article h2 {
+    margin-bottom: 50px;
+}
+
+.section-1 article hr {
+    width: 600px;
+    margin-bottom: 40px;
 }
 
 
