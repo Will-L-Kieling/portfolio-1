@@ -98,19 +98,25 @@ section {
 
 .section-1 article .one {
     width: 300px;
-    margin-bottom: 40px;
+    margin-bottom: 45px;
 }
 
 .section-1 article .two {
     position: relative;
     width: 700px;
     margin-bottom: 40px;
+    
 }
 
 
 .section-1 article img {
     position:absolute;
     opacity: 100%;
-    margin-right: 207px;
+    margin-right: 210px;
     top: 210px;
+}
+
+.section-1 p {
+    font-weight: 400px;
+    padding-bottom: 10px;
 }
