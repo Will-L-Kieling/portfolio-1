@@ -93,12 +93,24 @@ section {
 }
 
 .section-1 article h2 {
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
-.section-1 article hr {
-    width: 600px;
+.section-1 article .one {
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.section-1 article .two {
+    position: relative;
+    width: 700px;
     margin-bottom: 40px;
 }
 
 
+.section-1 article img {
+    position:absolute;
+    opacity: 100%;
+    margin-right: 207px;
+    top: 210px;
+}
