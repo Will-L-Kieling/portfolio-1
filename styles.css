@@ -160,6 +160,11 @@ ul li img {
     transition: scale 0.5s ease;
 }
 
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 ul li img:hover {
     scale: 1.5;
 }
