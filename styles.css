@@ -130,11 +130,11 @@ section {
 }
 
 .section-2 h2 {
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     position: absolute;
     top: 1060px;
-    left: 42px;
+    left: 25px;
     color: rgb(238, 140, 140);
 }
 
@@ -150,7 +150,7 @@ ul li {
 }
 
 ul li p {
-    font-size: 15px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 
@@ -166,5 +166,5 @@ ul li a {
 }
 
 ul li img:hover {
-    scale: 1.5;
+    scale: 1.2;
 }
