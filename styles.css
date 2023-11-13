@@ -129,14 +129,37 @@ section {
     font-size: 50px;
 }
 
+.section-2 h2 {
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    top: 1060px;
+    left: 42px;
+    color: rgb(238, 140, 140);
+}
+
 .section-2 ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap:150px;
+    gap:50px;
 }
 
 ul li {
     list-style: none;
-    font-size: 30px;
+}
+
+ul li p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+ul li img {
+    width: 120px;
+    height: 120px;
+    transition: scale 0.5s ease;
+}
+
+ul li img:hover {
+    scale: 1.5;
 }
